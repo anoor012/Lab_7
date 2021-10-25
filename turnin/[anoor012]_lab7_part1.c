@@ -1,7 +1,7 @@
 /*	Author: Ali Noor
  *  Partner(s) Name: 
  *	Lab Section: 21
- *	Assignment: Lab #6  Exercise #1
+ *	Assignment: Lab #7  Exercise #1
  *	Exercise Description: [optional - include for your own benefit]
  *
  *	I acknowledge all content contained herein, excluding template or example
@@ -152,7 +152,7 @@ int main(void) {
 	DDRC = 0xFF; PORTC = 0x00; 
 	DDRD = 0xFF; PORTD = 0x00;
 	
-	TimerSet(10);
+	TimerSet(100);
 	TimerOn();
 
 	state = start;
